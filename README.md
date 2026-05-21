@@ -217,8 +217,8 @@ Ejecutar `plot_signals.py` produce tres figuras:
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/<usuario>/lab2-robotica.git
-   cd lab2-robotica
+   git clone https://github.com/DaniSwi/LabRobotica2.git
+   cd LabRobotica2
    ```
 
 2. Abrir Webots y cargar el mundo deseado:
