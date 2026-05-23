@@ -221,9 +221,9 @@ Ejecutar `plot_signals.py` produce tres figuras:
    cd LabRobotica2
    ```
 
-2. Abrir Webots y cargar el mundo deseado:
+2. Abrir Webots y cargar el mundo deseado (caso para la arena más compleja):
    ```
-   File → Open World → worlds/escenario_simple.wbt
+   File → Open World → worlds/Escenario.wbt
    ```
 
 3. Verificar que el controlador del robot apunta a `epuck_controller`.
