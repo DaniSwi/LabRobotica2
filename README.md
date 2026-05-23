@@ -226,13 +226,13 @@ Ejecutar `plot_signals.py` produce tres figuras:
    File → Open World → worlds/Escenario.wbt
    ```
 
-3. Verificar que el controlador del robot apunta a `epuck_controller`.
+3. Verificar que el controlador del robot apunta a `controlador`.
 
 4. Ejecutar la simulación (botón ▶). El archivo `sensor_log.csv` se genera automáticamente en el directorio del controlador.
 
 5. Analizar las señales:
    ```bash
-   python plot_signals.py controllers/epuck_controller/sensor_log.csv
+   python plot_signals.py controllers/controlador/sensor_log.csv
    ```
 
 ---
