@@ -1,7 +1,7 @@
 # Laboratorio 2 — Navegación Reactiva con Filtrado y Fusión de Sensores en Webots
 
 **Curso:** Robótica y Sistemas Autónomos 2026-01 · ICI 4150  
-**Integrantes:** [Daniel Cornejo Ramírez] · [Ian Guerrero] · [Isidora Osorio]
+**Integrantes:** [Daniel Cornejo] · [Ian Guerrero] · [Isidora Osorio]
 
 ---
 
