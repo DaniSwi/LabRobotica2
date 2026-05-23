@@ -176,6 +176,8 @@ class EPuckController:
                 self.estado = "GIRANDO"
                 # miramos una sola vez pa donde escapar y lo guardamos
                 self.dir_giro = "izq" if right_side > left_side else "der"
+                print(f"\n [t={self.time_s:.1f}s] OBSTÁCULO DETECTADO a {front_cm:.1f} cm")
+                print(f"   -> Cambiando estado a: GIRANDO hacia la {self.dir_giro.upper()}")
 
         elif self.estado == "GIRANDO":
             # no soltamos el giro apenas pasemos el umbral de choque
@@ -183,6 +185,8 @@ class EPuckController:
             if front_cm > HYSTERESIS_DISTANCE_CM:
                 self.estado = "AVANZANDO"
                 self.dir_giro = ""
+                print(f"\n[t={self.time_s:.1f}s] CAMINO DESPEJADO (Distancia libre: {front_cm:.1f} cm)")
+                print(f"   -> Cambiando estado a: AVANZANDO")
 
         if self.estado == "AVANZANDO":
             # ir al maximo lo hace inestable en los giros cerrados, mejor un 70%
