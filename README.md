@@ -40,7 +40,7 @@ Implementar un sistema de navegación reactiva en Webots para el robot e-puck ut
 
 | Parámetro | Valor |
 |---|---|
-| Paso de simulación (TIME_STEP) | 64 ms |
+| Paso de simulación (TIME_STEP) | 8 ms | 
 | Tiempo de muestreo Ts | 0.064 s |
 | Frecuencia de muestreo fs | ≈ 15.6 Hz |
 
