@@ -2,8 +2,11 @@
 
 **Curso:** Robótica y Sistemas Autónomos 2026-01 · ICI 4150  
 **Integrantes:** 
+
 · [Daniel Cornejo - 21.674.373-3]
+
 · [Ian Guerrero   - 21.584.598-2]
+
 · [Isidora Osorio - 21.628.427-5]
 
 ---
